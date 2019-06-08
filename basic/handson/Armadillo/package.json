@@ -1,0 +1,21 @@
+{
+  "name": "hands-on",
+  "version": "1.0.0",
+  "description": "OMRON Environment Sensor 2JCIE-BU01 Hands-On",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js --fix"
+  },
+  "author": "Akira Tateishi (akira@i-gnote.com)",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-device": "^1.9.7",
+    "azure-iot-device-mqtt": "^1.9.7",
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}
